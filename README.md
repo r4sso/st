@@ -7,6 +7,12 @@
 
 In order to build st you need the Xlib header files.
 
+#### depends
+- [Iosevka](https://github.com/be5invis/Iosevka)
+    - Alpine: `font-iosevka`
+
+#### makedepends
+
 Alpine Linux 3.19: 
 ```
 make gcc musl-dev ncurses fontconfig-dev freetype-dev libx11-dev -libext-dev
