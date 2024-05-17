@@ -4,18 +4,17 @@
 
 
 ## Requirements
-
-In order to build st you need the Xlib header files.
-
-#### depends
 - [Iosevka](https://github.com/be5invis/Iosevka)
-    - Alpine: `font-iosevka`
 
-#### makedepends
-
-Alpine Linux 3.19: 
+(Alpine Linux 3.19):  
+Install Fonts:
 ```
-make gcc musl-dev ncurses fontconfig-dev freetype-dev libx11-dev -libext-dev
+apk add font-iosevka
+```
+
+Install build dependencies:
+```
+apk add make gcc musl-dev ncurses fontconfig-dev freetype-dev libx11-dev libext-dev
 ```
 
 ### Installation
