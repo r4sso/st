@@ -2,8 +2,15 @@
 
 [st](https://st.suckless.org/) is a simple terminal emulator for X which sucks less.
 
+## Patch
+Patch used in this fork:
+- scrollback
+
 
 ## Requirements
+
+In order to build st you need the Xlib header files.
+
 - [Iosevka](https://github.com/be5invis/Iosevka)
 
 (Alpine Linux 3.19):  
