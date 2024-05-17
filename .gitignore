@@ -1,6 +1,0 @@
-patches/
-config.def.h
-*.o
-st
-*.orig
-deps.sh
